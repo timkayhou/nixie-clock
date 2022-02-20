@@ -1,0 +1,25 @@
+{
+	"contentrating": "Everyone",
+	"description": "",
+	"file": "./public/index.html",
+	"general": {
+		"properties": {
+			"schemecolor": {
+				"order": 0,
+				"text": "ui_browse_properties_scheme_color",
+				"type": "color",
+				"value": "0 0 0"
+			}
+		}
+	},
+	"preview": "./src/assets/images/preview.jpg",
+	"tags": [
+		"Anime"
+	],
+	"title": "Nixie Clock",
+	"type": "web",
+	"version": 0,
+	"visibility": "friends",
+	"workshopid": "2759226540",
+	"workshopurl": "steam://url/CommunityFilePage/2759226540"
+}

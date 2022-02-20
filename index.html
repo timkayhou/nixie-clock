@@ -6,15 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nixie Clock</title>
-  <link rel="stylesheet" type="text/css" href="../src/assets/styles/css/master.css">
-  <link rel="shortcut icon" href="./favicon.ico">
-  <script src="../src/assets/scripts/js/vue.global.js"></script>
-  <script type="text/javascript" src="../src/assets/scripts/js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="./src/assets/styles/css/master.css">
+  <link rel="shortcut icon" href="./public/favicon.ico">
+  <script src="./src/assets/scripts/js/vue.global.js"></script>
+  <script type="text/javascript" src="./src/assets/scripts/js/main.js"></script>
 </head>
 
 <body>
   <div id="app">
-    {{ message }}
+    <div id="clock">
+      <image src="./src/assets/images/numbers/10.png" />
+    </div>
   </div>
   <template></template>
   <script type="text/javascript">

@@ -8,11 +8,23 @@
   <title>Nixie Clock</title>
   <link rel="stylesheet" type="text/css" href="../src/assets/styles/css/master.css">
   <link rel="shortcut icon" href="./favicon.ico">
-  <script type="text/javascript" src="../src/assets/scripts/js/vue.global.js"></script>
+  <script type="text/javascript" src="../src/assets/scripts/js/vue.js"></script>
+  <script type="text/javascript" src="../src/assets/scripts/js/main.js"></script>
 </head>
 
 <body>
-
+  <div id="app">
+    <h1>Hello, {{name}}</h1>
+  </div>
+  <script type="text/javascript">
+    Vue.config.devtools = true;
+    new Vue({
+      el: '#app',
+      data: {
+        name: 'World'
+      }
+    })
+  </script>
 </body>
 
 </html>

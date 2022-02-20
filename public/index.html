@@ -8,22 +8,23 @@
   <title>Nixie Clock</title>
   <link rel="stylesheet" type="text/css" href="../src/assets/styles/css/master.css">
   <link rel="shortcut icon" href="./favicon.ico">
-  <script type="text/javascript" src="../src/assets/scripts/js/vue.js"></script>
+  <script src="../src/assets/scripts/js/vue.global.js"></script>
   <script type="text/javascript" src="../src/assets/scripts/js/main.js"></script>
 </head>
 
 <body>
   <div id="app">
-    <h1>Hello, {{name}}</h1>
+    {{ message }}
   </div>
+  <template></template>
   <script type="text/javascript">
-    Vue.config.productionTip = false
-    new Vue({
-      el: '#app',
-      data: {
-        name: 'World'
+    Vue.createApp({
+      data() {
+        return {
+          message: 'Hello World!'
+        }
       }
-    })
+    }).mount('#app');
   </script>
 </body>
 
